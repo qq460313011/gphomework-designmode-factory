@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fw.factory.abstractfactory.DigitalCompany</OriginalElement>
+  <nodes>
+    <node x="107.75" y="0.0">fw.factory.abstractfactory.IMobilePhone</node>
+    <node x="66.75" y="157.0">fw.factory.abstractfactory.DigitalCompany</node>
+    <node x="185.0" y="81.0">fw.factory.abstractfactory.SonyMobilePhone</node>
+    <node x="258.0" y="314.0">fw.factory.abstractfactory.DigitalCompanyTest</node>
+    <node x="151.0" y="238.0">fw.factory.abstractfactory.SonyFactory</node>
+    <node x="0.0" y="238.0">fw.factory.abstractfactory.XiaoMiFactory</node>
+    <node x="0.0" y="81.0">fw.factory.abstractfactory.XiaoMiMobilePhone</node>
+    <node x="110.0" y="395.0">fw.factory.abstractfactory.XiaoMiTV</node>
+    <node x="0.0" y="395.0">fw.factory.abstractfactory.SonyTV</node>
+    <node x="70.25" y="314.0">fw.factory.abstractfactory.ITV</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fw.factory.abstractfactory.XiaoMiFactory" target="fw.factory.abstractfactory.DigitalCompany">
+      <point x="0.0" y="-15.5" />
+      <point x="65.5" y="213.0" />
+      <point x="102.25" y="213.0" />
+      <point x="-35.5" y="15.5" />
+    </edge>
+    <edge source="fw.factory.abstractfactory.XiaoMiTV" target="fw.factory.abstractfactory.ITV">
+      <point x="0.0" y="-15.5" />
+      <point x="161.5" y="370.0" />
+      <point x="119.75" y="370.0" />
+      <point x="16.5" y="15.5" />
+    </edge>
+    <edge source="fw.factory.abstractfactory.XiaoMiMobilePhone" target="fw.factory.abstractfactory.IMobilePhone">
+      <point x="0.0" y="-15.5" />
+      <point x="82.5" y="56.0" />
+      <point x="139.75" y="56.0" />
+      <point x="-32.0" y="15.5" />
+    </edge>
+    <edge source="fw.factory.abstractfactory.SonyMobilePhone" target="fw.factory.abstractfactory.IMobilePhone">
+      <point x="0.0" y="-15.5" />
+      <point x="261.0" y="56.0" />
+      <point x="203.75" y="56.0" />
+      <point x="32.0" y="15.5" />
+    </edge>
+    <edge source="fw.factory.abstractfactory.SonyFactory" target="fw.factory.abstractfactory.DigitalCompany">
+      <point x="0.0" y="-15.5" />
+      <point x="210.0" y="213.0" />
+      <point x="173.25" y="213.0" />
+      <point x="35.5" y="15.5" />
+    </edge>
+    <edge source="fw.factory.abstractfactory.SonyTV" target="fw.factory.abstractfactory.ITV">
+      <point x="0.0" y="-15.5" />
+      <point x="45.0" y="370.0" />
+      <point x="86.75" y="370.0" />
+      <point x="-16.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="309.5" y="193.5" />
+  <SelectedNodes>
+    <node>fw.factory.abstractfactory.IMobilePhone</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

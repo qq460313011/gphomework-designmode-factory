@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fw.factory.simple.CarFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="157.0">fw.factory.simple.CarFactory</node>
+    <node x="51.0" y="0.0">fw.factory.simple.ICar</node>
+    <node x="0.0" y="81.0">fw.factory.simple.Benz</node>
+    <node x="95.0" y="81.0">fw.factory.simple.BMW</node>
+    <node x="155.0" y="157.0">fw.factory.simple.CarTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fw.factory.simple.BMW" target="fw.factory.simple.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="134.5" y="56.0" />
+      <point x="103.5" y="56.0" />
+      <point x="17.5" y="15.5" />
+    </edge>
+    <edge source="fw.factory.simple.Benz" target="fw.factory.simple.ICar">
+      <point x="0.0" y="-15.5" />
+      <point x="37.5" y="56.0" />
+      <point x="68.5" y="56.0" />
+      <point x="-17.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="122.5" y="94.0" />
+  <SelectedNodes>
+    <node>fw.factory.simple.CarFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
